@@ -13,16 +13,25 @@ st.set_page_config(page_title="EV-Safety System", page_icon="🚗", layout="wide
 # ============================================
 @st.cache_resource
 def load_model():
+    # Check current directory
+    st.write(f"Current directory: {os.getcwd()}")
+    st.write(f"Files found: {os.listdir('.')}")
+    
+    # Try to load
     try:
         with open('model.pkl', 'rb') as f:
             model = pickle.load(f)
+        st.success("✅ Model loaded!")
         return model
-    except:
-        st.error("Model file not found!")
+    except FileNotFoundError:
+        st.error("❌ model.pkl not found in current directory!")
+        st.write("Files in directory:", os.listdir('.'))
+        return None
+    except Exception as e:
+        st.error(f"❌ Error: {e}")
         return None
 
 model = load_model()
-
 # ============================================
 # TITLE
 # ============================================
