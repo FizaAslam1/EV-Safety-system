@@ -11,7 +11,7 @@ AI-Powered Predictive Maintenance for EV Chargers
 Python | Scikit-learn | Streamlit | Pandas
 
 ## 🚀 Live Demo
-[Streamlit App](YOUR_STREAMLIT_URL)
+[Streamlit App] https://ev-safety-system-5w5ik8ftvztrpk4shuic7c.streamlit.app/
 
 ## 📊 Results
 - Accuracy: 99.0%
@@ -19,4 +19,4 @@ Python | Scikit-learn | Streamlit | Pandas
 - False Negatives: 0
 
 ## 👩‍💻 Author
-[Your Name] - Data Science Student
+[Fiza Aslam] - Data Science Student
