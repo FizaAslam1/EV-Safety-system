@@ -1,8 +1,10 @@
 import streamlit as st
 import pandas as pd
 import pickle
-import sklearn          
-import sklearn.ensemble  
+from sklearn.ensemble import RandomForestClassifier
+import sklearn
+       
+
 # ============================================
 # PAGE SETUP
 # ============================================
