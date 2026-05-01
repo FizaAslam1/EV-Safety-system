@@ -3,20 +3,29 @@ import pandas as pd
 import joblib
 import os
 
-# Load model
+# ============================================
+# PAGE SETUP
+# ============================================
+st.set_page_config(page_title="EV-Safety System", page_icon="🚗", layout="wide")
+
+# ============================================
+# LOAD MODEL - TRY BOTH FILES
+# ============================================
 @st.cache_resource
 def load_model():
-    try:
-        model = joblib.load('model.joblib')
-        return model
-    except:
-        st.error("Model not found!")
+    # Try joblib first
+    if os.path.exists('model.joblib'):
+        return joblib.load('model.joblib')
+    # Try pickle
+    elif os.path.exists('model.pkl'):
+        import pickle
+        with open('model.pkl', 'rb') as f:
+            return pickle.load(f)
+    else:
         return None
 
 model = load_model()
 
-# Baqi code same rahega...
-# (predict, predict_proba same kaam karta hai)
 # ============================================
 # TITLE
 # ============================================
@@ -61,28 +70,23 @@ if st.button("🔍 Analyze Charger Health", use_container_width=True):
         with col2:
             if probability > 70:
                 st.markdown("### 🔴 CRITICAL RISK")
-                st.markdown("🚨 Immediate action required!")
             elif probability > 40:
                 st.markdown("### 🟡 WARNING")
-                st.markdown("⚠️ Schedule maintenance soon")
             elif probability > 10:
                 st.markdown("### 🟠 LOW RISK")
-                st.markdown("👀 Monitor closely")
             else:
                 st.markdown("### 🟢 SAFE")
-                st.markdown("✅ No action needed")
         
         st.markdown("---")
         st.progress(min(int(probability), 100) / 100)
-        st.caption(f"Risk: {probability:.1f}% (Threshold: {threshold}%)")
     
     else:
-        st.error("Model not loaded!")
+        st.error("❌ Model file not found!")
+        st.write("Files in directory:", os.listdir('.'))
 
 else:
     st.info("👈 Adjust parameters and click **Analyze Charger Health**")
 
-# Footer
 st.markdown("---")
-st.markdown("<div style='text-align:center;color:gray;'>🚗 EV-Safety System | AI-Powered Predictive Maintenance | Accuracy: 99.0%</div>", 
+st.markdown("<div style='text-align:center;color:gray;'>🚗 EV-Safety System | Accuracy: 99.0%</div>", 
             unsafe_allow_html=True)
