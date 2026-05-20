@@ -19,4 +19,4 @@ Python | Scikit-learn | Streamlit | Pandas
 - False Negatives: 0
 
 ## 👩‍💻 Author
-[Fiza Aslam] - Data Science Student
+[Fiza Aslam] 
