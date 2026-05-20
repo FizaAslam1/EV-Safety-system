@@ -47,5 +47,3 @@ An end-to-end machine learning pipeline that analyzes operational data from EV c
 | Visualization  | Matplotlib, Seaborn |
 | Deployment     | Streamlit |
 | Development    | Jupyter Notebook |
-
-## 🏗️ Project Structure
