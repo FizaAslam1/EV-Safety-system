@@ -1,6 +1,6 @@
 #  EV-Safety System: AI-Powered Predictive Maintenance for EV Chargers
 
-Predict electric vehicle charger failures 7 days in advance with 99% accuracy, enabling proactive maintenance and preventing costly downtime.
+Predict electric vehicle charger failures 7 days in advance with 99% accuracy.
 
 ##  Live Demo
 
