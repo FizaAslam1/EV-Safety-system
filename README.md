@@ -14,7 +14,7 @@ EV charging infrastructure is critical for electric vehicle adoption. Unexpected
 - **High repair costs** from catastrophic failures
 - **Revenue loss** for charging station operators
 
-This system predicts failures *before* they happen, enabling timely maintenance.
+
 
 ## 🧠 Solution Overview
 
