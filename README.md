@@ -2,7 +2,7 @@
 
 Predict electric vehicle charger failures 7 days in advance with 99% accuracy.
 
-##  Live Demo
+##  Live here
 
  
 👉 **[EV-Safety System Web App](https://ev-safety-system-5w5ik8ftvztrpk4shuic7c.streamlit.app/)** 👈
