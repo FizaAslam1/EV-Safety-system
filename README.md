@@ -16,7 +16,7 @@ EV charging infrastructure is critical for electric vehicle adoption. Unexpected
 
 
 
-## 🧠 Solution Overview
+## 🧠 Solution 
 
 An end-to-end machine learning pipeline that analyzes operational data from EV chargers to predict failures with **99% accuracy** and **zero missed failures**.
 
