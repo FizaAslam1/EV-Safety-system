@@ -7,7 +7,7 @@ Predict electric vehicle charger failures 7 days in advance with 99% accuracy.
  
 👉 **[EV-Safety System Web App](https://ev-safety-system-5w5ik8ftvztrpk4shuic7c.streamlit.app/)** 👈
 
-## 📌 Problem Statement
+##  Problem Statement
 
 EV charging infrastructure is critical for electric vehicle adoption. Unexpected charger failures lead to:
 - **Customer dissatisfaction** due to unavailable chargers
