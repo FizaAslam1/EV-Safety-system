@@ -4,7 +4,7 @@
 [![Python 3.13](https://img.shields.io/badge/Python-3.13-blue.svg)](https://www.python.org/)
 [![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-orange.svg)](https://scikit-learn.org/)
 
-**Predict electric vehicle charger failures up to 7 days in advance with 99% accuracy and zero missed failures.**
+**Predict electric vehicle charger failure up to 7 days in advance with 99% accuracy and zero missed failures.**
 
 ---
 
