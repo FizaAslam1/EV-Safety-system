@@ -119,7 +119,7 @@ An intelligent predictive maintenance system that transforms operational data in
 - ✅ **Explainable AI** – Feature importance and model interpretation
 - ✅ **Scalable Architecture** – Handles large charger networks
 - ✅ **Production-Ready** – Deployable on cloud platforms
-- ✅ **Comprehensive Documentation** – Jupyter notebooks with detailed workflows
+- ✅ **Comprehensive Documentation** – Jupyter notebooks 
 
 ---
 
