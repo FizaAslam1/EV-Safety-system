@@ -156,7 +156,7 @@ EV-Safety-system/
 - Python 3.13 or higher
 - pip or conda package manager
 - 4 GB RAM (minimum)
-- 500 MB storage
+  
 
 ### Installation
 
