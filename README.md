@@ -102,7 +102,7 @@ An intelligent predictive maintenance system that transforms operational data in
 | Category | Technology |
 |----------|-----------|
 | **Programming Language** | Python 3.13 |
-| **ML Framework** | Scikit-learn (Random Forest) |
+| **ML Framework** | Scikit-learn |
 | **Data Processing** | Pandas, NumPy |
 | **Visualization** | Matplotlib, Seaborn |
 | **Development Environment** | Jupyter Notebook |
