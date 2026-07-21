@@ -113,13 +113,13 @@ An intelligent predictive maintenance system that transforms operational data in
 
 ## ✨ Features
 
-- ✅ **High Accuracy Prediction** – 99% accuracy with 0.9999 AUC-ROC
-- ✅ **Real-Time Inference** – Instant risk scoring for chargers
-- ✅ **Interactive Web Dashboard** – User-friendly Streamlit interface
-- ✅ **Explainable AI** – Feature importance and model interpretation
-- ✅ **Scalable Architecture** – Handles large charger networks
-- ✅ **Production-Ready** – Deployable on cloud platforms
-- ✅ **Comprehensive Documentation** – Jupyter notebooks 
+-  **High Accuracy Prediction** – 99% accuracy with 0.9999 AUC-ROC
+-  **Real-Time Inference** – Instant risk scoring for chargers
+-  **Interactive Web Dashboard** – User-friendly Streamlit interface
+-  **Explainable AI** – Feature importance and model interpretation
+-  **Scalable Architecture** – Handles large charger networks
+-  **Production-Ready** – Deployable on cloud platforms
+-  **Comprehensive Documentation** – Jupyter notebooks 
 
 ---
 
