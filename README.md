@@ -22,7 +22,6 @@
 - [Model Performance](#model-performance)
 - [Deployment](#deployment)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ---
