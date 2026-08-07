@@ -1,8 +1,5 @@
 streamlit
-starlette
-tensorflow
-numpy
-pillow
-joblib
-scikit-learn
 pandas
+numpy
+scikit-learn
+joblib
