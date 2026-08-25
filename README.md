@@ -203,7 +203,7 @@ The app will open at `http://localhost:8501` with an interactive dashboard for:
 - Uploading charger data
 - Viewing predictions and risk scores
 - Interpreting model decisions
-- Downloading reports
+  
 
 ### Use the Trained Model
 
